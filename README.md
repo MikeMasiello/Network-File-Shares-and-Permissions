@@ -32,30 +32,19 @@
 
 <h2>Actions and Observations</h2>
 
-<p>   
 
-</p>
-<br />
+<img src="https://i.imgur.com/0DyxPlr.png" height="80%" width="create cname record"/>  
 
-</p>
-<br />
-
-
-</p>
-Utilize Microsoft Remote Desktop to access Windows 10 virtual machine. Log into client-1 and attempt to ping mainframe using command prompt, "ping Mainframe"
-
-
-
+Create some sample file shares with various permissions
+Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
+Connect/log into Client-1 as a normal user (mydomain\<someuser>)
+On DC-1, on the C:\ drive, create 4 folders: “read-access”, “write-access”, “no-access”, “accounting”
+Set the following permissions (share the folder) for the “Domain Users” group:
+Folder: “read-access”, Group: “Domain Users”, Permission: “Read”
+Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Write”
+Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”
+(Skip accounting for now)
 
 
-<img src="https://i.imgur.com/7bRzFjJ.png" height="80%" width="create cname record"/>
-CNAME Record Exercise
 
-Go back to DC-1 and create a CNAME record that points the host “search” to “www.google.com”
-
-<img src="https://i.imgur.com/6GTNX8O.png" height="80%" width="ping search google"/>
-Go back to Client-1 and attempt to ping “search”, observe the results of the CNAME record
-
-<img src="https://i.imgur.com/xZuLP59.png" height="80%" width="ping search google"/>
-On Client-1, nslookup “search”, observe the results of the CNAME record
 Finish

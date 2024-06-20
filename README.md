@@ -60,4 +60,12 @@ Go back to DC-1, in Active Directory, create a security group called “ACCOUNTA
 On the “accounting” folder you created earlier, set the following permissions:
 Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
 
+<img src="https://i.imgur.com/5ESORM0.png" height="80%" width="Create an “ACCOUNTANTS” Security Group"/> 
+
+On Client-1, as  <someuser>, try to access the accountants folder. It should fail. 
+
+
+Log out of Client-1 as  <someuser>
+On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group
+
 Finish

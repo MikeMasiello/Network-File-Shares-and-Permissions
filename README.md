@@ -33,7 +33,7 @@
 <h2>Actions and Observations</h2>
 
 
-<img src="https://i.imgur.com/0DyxPlr.png" height="80%" width="create cname record"/>  
+<img src="https://i.imgur.com/0DyxPlr.png" height="80%" width="Create some sample file shares"/>  
 
 Create some sample file shares with various permissions
 Connect/log into DC-1 as your domain admin account (mydomain.com\jane_admin)
@@ -45,6 +45,10 @@ Folder: “write-access”,  Group: “Domain Users”, Permissions: “Read/Wri
 Folder: “no-access”, Group: “Domain Admins”, “Permissions: “Read/Write”
 (Skip accounting for now)
 
+<img src="https://i.imgur.com/eSKSb5D.png" height="80%" width="Access File Shares"/>  
 
+Attempt to access file shares as a normal user
+On Client-1, navigate to the shared folder (start, run, \\dc-1)
+Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
 Finish

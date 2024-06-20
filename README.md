@@ -61,11 +61,14 @@ On the “accounting” folder you created earlier, set the following permission
 Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
 
 <img src="https://i.imgur.com/5ESORM0.png" height="80%" width="Create an “ACCOUNTANTS” Security Group"/> 
-
 On Client-1, as  <someuser>, try to access the accountants folder. It should fail. 
 
-
+<img src="https://i.imgur.com/Mjaeojl.png" height="80%" width="Add member to Accountants Security Group"/> 
 Log out of Client-1 as  <someuser>
 On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group
+
+<img src="https://i.imgur.com/rz0xf6T.png" height="80%" width="Add member to Accountants Security Group"/> 
+
+Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?  No! Must log off and back in to refresh it. 
 
 Finish

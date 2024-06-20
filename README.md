@@ -51,4 +51,9 @@ Attempt to access file shares as a normal user
 On Client-1, navigate to the shared folder (start, run, \\dc-1)
 Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
+
+<img src="https://i.imgur.com/dcKNRxp.png" height="80%" width="Access File Shares"/> 
+Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
+Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”
+
 Finish

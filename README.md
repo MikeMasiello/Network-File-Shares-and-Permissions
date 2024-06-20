@@ -52,8 +52,12 @@ On Client-1, navigate to the shared folder (start, run, \\dc-1)
 Try to access the folders you just created. Which folders can you access? Which folders can you create stuff in? Does it make sense?
 
 
-<img src="https://i.imgur.com/dcKNRxp.png" height="80%" width="Access File Shares"/> 
+<img src="https://i.imgur.com/dcKNRxp.png" height="80%" width="Create an “ACCOUNTANTS” Security Group"/> 
 Create an “ACCOUNTANTS” Security Group, assign permissions, an test access
 Go back to DC-1, in Active Directory, create a security group called “ACCOUNTANTS”
+
+<img src="https://i.imgur.com/5lIlWwn.png" height="80%" width="Create an “ACCOUNTANTS” Security Group"/> 
+On the “accounting” folder you created earlier, set the following permissions:
+Folder: “accounting”, Group: “ACCOUNTANTS”, Permissions: “Read/Write”
 
 Finish

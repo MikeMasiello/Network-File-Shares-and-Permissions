@@ -69,6 +69,10 @@ On DC-1, make <someuser> a member of the “ACCOUNTANTS”  Security Group
 
 <img src="https://i.imgur.com/rz0xf6T.png" height="80%" width="Add member to Accountants Security Group"/> 
 
-Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?  No! Must log off and back in to refresh it. 
+Sign back into Client-1 as <someuser> and try to access the “accounting” share in \\DC-1\ - Does it work now?  No! Must log off and back in to refresh it.
+
+<img src="https://i.imgur.com/h3zLAvq.png" height="80%" width="Add member to Accountants Security Group"/> 
+
+Restart Virtual Machines in Azure and via Remote Desktop to acess the accounting share. 
 
 Finish

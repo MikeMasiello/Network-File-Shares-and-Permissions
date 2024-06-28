@@ -1,6 +1,6 @@
-<h2>Network File Shares and Permissions
+<h2>Network File Shares and Permissions</h2>
 
-
+In this walkthrough we will explore sharing resources out over the network, creating file shares to allow read, write, or deny access to individual users and groups. 
 
 
 <h2>Environments and Technologies Used</h2>
